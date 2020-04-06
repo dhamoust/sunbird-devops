@@ -1,6 +1,6 @@
 {
-  "id": "sunbird",
-  "realm": "sunbird",
+  "id": "societal",
+  "realm": "societal",
   "notBefore": 0,
   "revokeRefreshToken": false,
   "accessTokenLifespan": 21600,
@@ -40,7 +40,7 @@
         "scopeParamRequired": true,
         "composite": false,
         "clientRole": false,
-        "containerId": "sunbird"
+        "containerId": "societal"
       },
       {
         "id": "96adf368-c8e2-4b39-b2a5-2559573edb63",
@@ -49,7 +49,7 @@
         "scopeParamRequired": false,
         "composite": false,
         "clientRole": false,
-        "containerId": "sunbird"
+        "containerId": "societal"
       }
     ],
     "client": {
@@ -1107,13 +1107,13 @@
       "id": "79c518d7-b41a-4e6f-be42-4ef365824100",
       "clientId": "security-admin-console",
       "name": "${client_security-admin-console}",
-      "baseUrl": "/auth/admin/sunbird/console/index.html",
+      "baseUrl": "/auth/admin/societal/console/index.html",
       "surrogateAuthRequired": false,
       "enabled": true,
       "clientAuthenticatorType": "client-secret",
       "secret": "",
       "redirectUris": [
-        "/auth/admin/sunbird/console/*"
+        "/auth/admin/societal/console/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
@@ -1244,7 +1244,7 @@
       "id": "c2d24d3f-65ca-46de-9cd8-3eeb71a7f83d",
       "clientId": "account",
       "name": "${client_account}",
-      "baseUrl": "/auth/realms/sunbird/account",
+      "baseUrl": "/auth/realms/societal/account",
       "surrogateAuthRequired": false,
       "enabled": true,
       "clientAuthenticatorType": "client-secret",
@@ -1254,7 +1254,7 @@
         "view-profile"
       ],
       "redirectUris": [
-        "/auth/realms/sunbird/account/*"
+        "/auth/realms/societal/account/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
