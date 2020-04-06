@@ -153,11 +153,11 @@ cassandra_backup_azure_storage_access_key: "{{backup_storage_key}}"
 cassandra_backup_dir: /data/cassandra/backup
 
 
-keycloak_realm: sunbird
+keycloak_realm: societal
 sunbird_content_player_url: "http://api-manager_kong:8000/"
 sunbird_learner_player_url: "http://api-manager_kong:8000/"
 sunbird_sso_client_id: admin-cli
-sunbird_portal_realm: sunbird
+sunbird_portal_realm: societal
 sunbird_portal_auth_server_client: portal
 sunbird_trampoline_client_id: trampoline
 sunbird_appid: "{{env}}.sunbird.portal"
